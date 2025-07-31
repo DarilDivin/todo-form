@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📝 Todo Form avec Détection de Dates
 
-## Getting Started
+![Aperçu du Projet](./public/preview.png)
 
-First, run the development server:
+## 🚀 À propos
+
+Une application todo intelligente qui **détecte automatiquement les dates** dans vos tâches. Écrivez "Appeler Paul demain" et regardez la date être automatiquement surlignée et synchronisée avec le calendrier.
+
+## ✨ Fonctionnalités
+
+- 🧠 **Détection automatique** : Reconnaît "demain", "lundi prochain", "le 15 août"
+- 🎨 **Surlignage intelligent** : Animation visuelle des dates détectées
+- 📅 **Synchronisation calendrier** : Badge bleu et sélection bidirectionnelle
+- ⚡ **Temps réel** : Détection instantanée pendant la frappe
+
+## 🛠️ Technologies
+
+**Next.js** • **TypeScript** • **Tailwind CSS** • **Framer Motion** • **chrono-node**
+
+## 📦 Installation
 
 ```bash
+git clone https://github.com/DarilDivin/todo-form.git
+cd todo-form
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧪 Exemples
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+✅ "Réunion demain à 14h"     → Détecte demain 14h00
+✅ "Appel lundi prochain"     → Détecte lundi prochain  
+✅ "Deadline le 15 août"      → Détecte 15 août
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📄 Licence
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT - Voir [LICENSE](LICENSE)
