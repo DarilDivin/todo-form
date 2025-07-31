@@ -250,9 +250,15 @@ export default function Home() {
             <SelectValue placeholder="No List" />
           </SelectTrigger>
           <SelectContent>
-            <SelectItem value="light">Light</SelectItem>
-            <SelectItem value="dark">Dark</SelectItem>
-            <SelectItem value="system">System</SelectItem>
+            <SelectItem value="1">
+              Work
+            </SelectItem>
+            <SelectItem value="2">
+              Home
+            </SelectItem>
+            <SelectItem value="3">
+              Personal
+            </SelectItem>
           </SelectContent>
         </Select>
         <Button
